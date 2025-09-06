@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <title>random seat</title>
+        <link rel="stylesheet" href="decor.css">
+    </head>
+        <div class="container">
+            <div class="input-section">
+                <label>tên học sinh:</label>
+                <textarea id="studentList" rows ="10"></textarea>
+                
+                <label>số cột</label>
+                <input type="number" id="inputCols" value = "4" min = "1">
+                
+                <label>số hàng</label>
+                <input type="number" id="inputRows" value = "6" min = "1">
+                
+                <button id="randomButton">xếp chỗ</button>
+            </div>
+            
+            <div class="class-layout" id="classLayout"></div>
+        </div>
+        <div class="vcl">
+            <div></div>
+            <div class="cr">created by: nguyenxuanviet</div>
+        </div>
+        
+
+        
+        <script type="module" src="base.js"></script>
+    </body>
+</html>
