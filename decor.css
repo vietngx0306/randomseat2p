@@ -62,13 +62,3 @@ button:active {
 .studentt {
     display: inline-block;
 }
-.cr {
-    font-size: small;
-    color: #999;
-}
-.vcl {
-    display: grid;
-    grid-template-columns: 6fr 1fr;
-    max-width: 1200px;
-    width: 90%;
-}
